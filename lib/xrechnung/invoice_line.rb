@@ -6,7 +6,7 @@ module Xrechnung
 
     # @!attribute id
     #   @return [Integer]
-    member :id, type: Integer
+    member :id
 
     # @!attribute invoiced_quantity
     #   @return [Xrechnung::Quantity]
